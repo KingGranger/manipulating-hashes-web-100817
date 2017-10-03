@@ -4,18 +4,7 @@
 
 def second_challenge
   groveries = {
-    "Jon Snow" => {
-      name: "Jon",
-      email: "jon_snow@thewall.we",
-      favorite_icecream_flavors: ["chocolate", "vanilla", "mint chip"],
-      knows: nil
-    },
-    "Freddy Mercury" => {
-      name: "Freddy",
-      email: "freddy@mercury.com",
-      favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
-    }
-  }
+  :dairy => ["milk", "yogurt", "cheese"], :vegetables => ["carrots", "broccoli", "cucumbers"], meat: ["chicken", "steak", "salmon"], grains: ["rice", "pasta"]
 
   groceries.values.flatten
 end
